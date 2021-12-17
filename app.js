@@ -28,7 +28,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb://localhost:27017/userDB", {
+mongoose.connect("mongodb+srv://admin-ayush:ayush123@cluster0.6hf2s.mongodb.net/userDB", {
   useNewUrlParser: true
 });
 
@@ -172,6 +172,6 @@ app.post("/login", function(req, res) {
 });
 
 
-app.listen(process.env.PORT || 3000, function() {
+app.listen(3000, function() {
   console.log("Server started on port 3000");
 });

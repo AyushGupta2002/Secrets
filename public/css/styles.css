@@ -96,3 +96,8 @@ body {
   border-bottom: 100px solid #ececec;
   border-left: 300px solid #333333;
 }
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
